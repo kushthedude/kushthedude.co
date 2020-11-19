@@ -1008,10 +1008,10 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.3.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7":
-  version "7.12.1"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.1.tgz#b4116a6b6711d010b2dad3b7b6e43bf1b9954740"
-  integrity sha512-J5AIf3vPj3UwXaAzb5j1xM4WAQDX3EMgemF8rjCP3SoW09LfRKAXQKt6CoVYl230P6iWdRcBbnLDDdnqWxZSCA==
+"@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.3.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7":
+  version "7.12.5"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
+  integrity sha512-plcc+hbExy3McchJCEQG3knOsuh3HH+Prx1P6cLIkET/0dLuQDEnrT+s27Axgc9bqfsmNUNHfscgMUdBpC9xfg==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -3137,7 +3137,7 @@ buffer-alloc-unsafe@^1.1.0:
   resolved "https://registry.yarnpkg.com/buffer-alloc-unsafe/-/buffer-alloc-unsafe-1.1.0.tgz#bd7dc26ae2972d0eda253be061dba992349c19f0"
   integrity sha512-TEM2iMIEQdJ2yjPJoSIsldnleVaAk1oW3DBVUykyOLsEsFmEc9kn+SFFPz+gl54KQNxlDnAwCXosOS9Okx2xAg==
 
-buffer-alloc@^1.1.0, buffer-alloc@^1.2.0:
+buffer-alloc@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/buffer-alloc/-/buffer-alloc-1.2.0.tgz#890dd90d923a873e08e10e5fd51a57e5b7cce0ec"
   integrity sha512-CFsHQgjtW1UChdXgbyJGtnm+O/uLQeZdtbDo8mfUgYXCHSM1wgrVxXm6bSyrUuErEb+4sYVGCzASBRot7zyrow==
@@ -6186,7 +6186,7 @@ gatsby-cli@^2.12.113, gatsby-cli@^2.12.97:
     yoga-layout-prebuilt "^1.9.6"
     yurnalist "^1.1.2"
 
-gatsby-core-utils@^1.3.20, gatsby-core-utils@^1.3.23:
+gatsby-core-utils@^1.3.23:
   version "1.3.23"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.3.23.tgz#5d99e86178b2aa3561f58fde4fdffbebecb0dd0c"
   integrity sha512-H6n6dDeRZ22HAJaBUIt5YjB/BSaE8Jq+kayMUv/YzL1RL2yFZ5lqcLwIL1OE2vWk1mQjMUBZCRxLODU0q1i3bQ==
@@ -6245,12 +6245,12 @@ gatsby-page-utils@^0.2.29:
     lodash "^4.17.20"
     micromatch "^4.0.2"
 
-gatsby-plugin-google-analytics@^2.3.17:
-  version "2.3.17"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.3.17.tgz#61207d253b69e8ab606ebff75e074c1774d108bb"
-  integrity sha512-0s8m2BPBBsccCIFE2rUl98Ir/JE273cyPwfFB1PrtNz6rVmbRrm8AWKJvGXlZiPAfMUuBhT39vCgTvrCDp4phw==
+gatsby-plugin-google-analytics@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.6.0.tgz#6fd6a8bdb4eb2adc2cc88687f9fb3b334787cbe9"
+  integrity sha512-2pxd2iaJUWVIIGkP4T2PTDlmMEjnRLrP+ZXV65SpOy2Q2Od2tpiStol6B5T6iGjtKGs6ZOdk3D1gyTCvH+gpsg==
   dependencies:
-    "@babel/runtime" "^7.11.2"
+    "@babel/runtime" "^7.12.5"
     minimatch "3.0.4"
 
 gatsby-plugin-manifest@^2.4.37:
@@ -6371,13 +6371,6 @@ gatsby-plugin-typescript@^2.4.25:
     "@babel/preset-typescript" "^7.10.4"
     "@babel/runtime" "^7.11.2"
     babel-plugin-remove-graphql-queries "^2.9.20"
-
-gatsby-plugin-utils@^0.2.40:
-  version "0.2.40"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-0.2.40.tgz#20e997d10efb9a0368270f79ce2e6001346f6336"
-  integrity sha512-RKjmpPhmi8TDR9hAKxmD4ZJMje3BLs6nt6mxMWT0F8gf5giCYEywplJikyCvaPfuyaFlq1hMmFaVvzmeZNussg==
-  dependencies:
-    joi "^17.2.1"
 
 gatsby-plugin-utils@^0.2.40:
   version "0.2.40"
@@ -9155,13 +9148,6 @@ markdown-table@^2.0.0:
   integrity sha512-Ezda85ToJUBhM6WGaG6veasyym+Tbs3cMAw/ZhOPqXiYsr0jgocBV3j3nx+4lk47plLlIqjwuTm/ywVI+zjJ/A==
   dependencies:
     repeat-string "^1.0.0"
-
-md5-file@^3.2.3:
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/md5-file/-/md5-file-3.2.3.tgz#f9bceb941eca2214a4c0727f5e700314e770f06f"
-  integrity sha512-3Tkp1piAHaworfcCgH0jKbTvj1jWWFgbvh2cXaNCgHwyTCBxxvD1Y04rmfpvdPm1P4oXMOpm6+2H7sr7v9v8Fw==
-  dependencies:
-    buffer-alloc "^1.1.0"
 
 md5-file@^5.0.0:
   version "5.0.0"
